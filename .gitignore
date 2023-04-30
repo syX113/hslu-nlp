@@ -161,4 +161,4 @@ cython_debug/
 
 
 # Data file
-data/esg_documents_for_dax_companies.csv
+data/*

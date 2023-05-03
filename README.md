@@ -3,9 +3,17 @@ Contains the NLP project for the "Detecting greenwashing signals through a compa
 The analyzed datasets can be downloaded from the following Google drive:
 https://drive.google.com/file/d/1D1qOuJvQx69afYyz4rwf2C-Nm0D4goKy/view?usp=sharing
 
-Further information to the challenge/project can be found in the document in "/docs" or the following links:
+Further information to the challenge/project can be found in the document in */docs* or the following links:
 - https://www.swisstext.org/shared-task-1-detecting-greenwashing-signals-through-a-comparison-of-esg-reports-and-public-media/
 - https://sites.google.com/view/greenwashingswisstext/home?authuser=0
+
+### Run the analysis / EDA
+- Clone the repository
+- Download the data files to the */data* directory
+- Install the requirements
+- Run the preprocessing notebook (*stage1/00-data-preprocessing.ipynb*)
+- Run the analysis notebook (*stage1/01-data-exploration-and-visualization.ipynb*)
+
 
 ### Repository structure
 

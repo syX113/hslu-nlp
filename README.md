@@ -1,4 +1,4 @@
-# HSLU: 
+# HSLU Project: Computational Language Technologies 
 Contains the NLP project for the "Detecting greenwashing signals through a comparison of ESG reports and public media" challenge.
 The analyzed datasets can be downloaded from the following Google drive:
 https://drive.google.com/file/d/1D1qOuJvQx69afYyz4rwf2C-Nm0D4goKy/view?usp=sharing

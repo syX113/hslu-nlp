@@ -16,20 +16,29 @@ Further information to the challenge/project can be found in the document in */d
 
 
 ### Repository structure
-
-* [data/](./hslu-nlp/data) Data directory (download and store the datasets to this directory)
-  * [checkpoints/](./hslu-nlp/data/checkpoints) Checkpoint directory to save intermediate processing steps.
-  * [.gitkeep](./hslu-nlp/data/.gitkeep)
-* [docs/](./hslu-nlp/docs) Contains the PDF with the project information
-* [stage1/](./hslu-nlp/stage1) Contains the Juypter Notebooks for the data preprocessing/cleaning and the EDA
-  * [00-data-preprocessing.ipynb](./hslu-nlp/stage1/00-data-preprocessing.ipynb)
-  * [01-data-exploration-and-visualization.ipynb](./hslu-nlp/stage1/01-data-exploration-and-visualization.ipynb)
-* [stage2/](./hslu-nlp/stage2)
-  * [02-data-annotation.ipynb](./hslu-nlp/stage2/02-data-annotation.ipynb)
-* [stage3/](./hslu-nlp/stage3) To-DO
-* [stage4/](./hslu-nlp/stage4) To-DO
-* [stage5/](./hslu-nlp/stage5) To-DO
-* [.gitignore](./hslu-nlp/.gitignore)
-* [README.md](./hslu-nlp/README.md)
+```
+hslu-nlp/
+┣ data/
+┃ ┣ checkpoints/
+┃ ┣ .gitkeep
+┃ ┣ dax_company_sectors.csv
+┃ ┣ esg_documents_for_dax_companies.csv
+┃ ┗ sdg_descriptions_with_targetsText.csv
+┣ docs/
+┃ ┗ SwissText Shared Task 2023 - Greenwashing Detection.pdf
+┣ stage1/
+┃ ┣ 00-data-preprocessing.ipynb
+┃ ┗ 01-data-exploration-and-visualization.ipynb
+┣ stage2/
+┃ ┣ annotated/
+┃ ┣ checkpoints/
+┃ ┗02-data-annotation.ipynb
+┣ stage3/
+┣ stage4/
+┣ stage5/
+┣ .gitignore
+┣ README.md
+┗ requirements.txt
+ ```
 
 Developed and authored by: Tim Giger

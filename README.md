@@ -7,12 +7,35 @@ Further information to the challenge/project can be found in the document in */d
 - https://www.swisstext.org/shared-task-1-detecting-greenwashing-signals-through-a-comparison-of-esg-reports-and-public-media/
 - https://sites.google.com/view/greenwashingswisstext/home?authuser=0
 
+The project is structured in different stages. For each stage, the development artifacts are stored in the respective folders (e.g. stage1)
+
 ### Run the analysis / EDA
 - Clone the repository
 - Download the data files to the */data* directory
 - Install the requirements
 - Run the preprocessing notebook (*stage1/00-data-preprocessing.ipynb*)
 - Run the analysis notebook (*stage1/01-data-exploration-and-visualization.ipynb*)
+
+### Stage 1
+Contains text pre-processing, cleaning and enrichment (*00-data-preprocessing.ipynb*).
+After the pre-processing, an Exploratory Data Analysis was conducted (*01-data-exploration-and-visualization.ipynb*)
+
+### Stage 2
+A "gold standard" of 1000 manually annotated (positive, negative, neutral) sentences was created.
+Several LLMs were evaluated and tested with different prompting strategies. Afterward one model was selected to annoate/segment all sentences.
+See *02-data-annotation.ipynb* for the full code and explanations.
+
+
+### Stage 3
+tbd
+
+
+### Stage 4
+tbd
+
+
+### Stage 5
+tbd
 
 
 ### Repository structure
@@ -21,9 +44,8 @@ hslu-nlp/
 ┣ data/
 ┃ ┣ checkpoints/
 ┃ ┣ .gitkeep
-┃ ┣ dax_company_sectors.csv
-┃ ┣ esg_documents_for_dax_companies.csv
-┃ ┗ sdg_descriptions_with_targetsText.csv
+┃ ┣ esg_documents_for_dax_companies.csv (Download the dataset and place it here)
+┃ ┗ sdg_descriptions_with_targetsText.csv (Download the dataset and place it here)
 ┣ docs/
 ┃ ┗ SwissText Shared Task 2023 - Greenwashing Detection.pdf
 ┣ stage1/

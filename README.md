@@ -41,4 +41,5 @@ hslu-nlp/
 ┗ requirements.txt
  ```
 
-Developed and authored by: Tim Giger
+Stage 1 & 2 developed and authored by: Tim Giger
+Stage 3, 4 & 5 developed and authored by: Contessotto Arian, Reichmuth Levin & Tim Giger

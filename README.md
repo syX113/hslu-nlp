@@ -21,7 +21,7 @@ Contains text pre-processing, cleaning and enrichment (*00-data-preprocessing.ip
 After the pre-processing, an Exploratory Data Analysis was conducted (*01-data-exploration-and-visualization.ipynb*)
 
 ### Stage 2
-A "gold standard" of 1000 manually annotated (positive, negative, neutral) sentences was created.
+A "gold standard" of 1'000 manually annotated (positive, negative, neutral) sentences was created.
 Several LLMs were evaluated and tested with different prompting strategies. Afterward one model was selected to annoate/segment all sentences.
 See *02-data-annotation.ipynb* for the full code and explanations. The manually annotated and LLM annotated dataset is stored on Google Drive:
 https://drive.google.com/drive/folders/1ATtCPPll6n_qvfMBu4ka84E3DZDS7d11

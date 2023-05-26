@@ -159,3 +159,6 @@ stage2/checkpoints
 
 # API Key
 stage2/api_key.txt
+
+# Trained models
+stage3/models/*

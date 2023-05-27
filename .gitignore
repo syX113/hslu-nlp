@@ -162,3 +162,7 @@ stage2/api_key.txt
 
 # Trained models
 stage3/models/*
+
+# Stage outputs
+stage1/output
+stage2/output

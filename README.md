@@ -26,18 +26,18 @@ Several LLMs were evaluated and tested with different prompting strategies. Afte
 See *02-data-annotation.ipynb* for the full code and explanations. The manually annotated and LLM annotated dataset is stored on Google Drive:
 https://drive.google.com/drive/folders/1ATtCPPll6n_qvfMBu4ka84E3DZDS7d11
 
-
 ### Stage 3
-tbd
-
+Based on the data annotated in stage 2, a sentiment analysis classifier was trained and evaluated. The classifier outputs scores
+on a continuous scale between 0 and 1. After training, the classifier was used to predict/classify sentiment of sentences in the full data set.
+Finally, the average sentiments of internal vs. external were compared to determine whether greenwashing patterns are present or not.
 
 ### Stage 4
-tbd
-
+Relevance of specific SDGs to the different companies are determined. A sentence embedding approach was used on the SDG descriptions and the
+documents related to a company to compare them in terms of similarity. Finally, the results of the sentence embedding analysis were displayed
+in heatmaps and bar charts to represent the SDG relevance for the different companies.
 
 ### Stage 5
-tbd
-
+A project report containing key findings and methodology of stages 1 to 4 was written.
 
 ### Repository structure
 ```
@@ -65,4 +65,4 @@ hslu-nlp/
  ```
 
 Stage 1 & 2 developed and authored by: Tim Giger  
-Stage 3, 4 & 5 developed and authored by: Contessotto Arian, Reichmuth Levin & Tim Giger
+Stage 3, 4 & 5 developed and authored by: Arian Contessotto, Levin Reichmuth & Tim Giger
